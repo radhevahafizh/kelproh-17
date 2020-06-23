@@ -30,45 +30,77 @@ a {
 }
 
 .top-wrapper {
-  padding: 180px 0 100px 0;
+  padding: 180px 0 180px 0;/*edit*/
   background-image: url(background3.jpg);
   background-size: cover;
-  color: white;
+  color: rgb(51, 16, 16);/*edit*/
   text-align: center;
+  background-position: center; /*edit*/
 }
 
 .top-wrapper h1 {
   opacity: 0.9;
   font-size: 45px;
   letter-spacing: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  font-weight: 900;/*edit*/
+  font-family: Cambria;/*edit*/
 }
 
 .top-wrapper p {
   opacity: 0.9;
   margin-bottom: 3px;
+  color:rgb(68, 43, 43);/*edit*/
+  font-weight: bold;/*edit*/
+  font-size: 12px;/*edit*/
+  font-family: Tahoma;/*edit*/
+  
+}
+
+/*edit*/
+.heading-wrapper {
+  margin-bottom:20px;
 }
 
 .btn-wrapper {
   text-align: center;
-  margin: 20px 0;
+  margin-left: 20px;/*edit*/
+}
+
+/*edit*/
+.btn-wrapper a{
+  margin: 5px 2px 5px 2px;
 }
 
 .btn-wrapper p {
   margin: 10px 0;
 }
 
+/*edit*/
+.penjelasan{
+  margin-bottom:40px;
+}
+
 .signup {
   background-color: #239b76;
+  font-weight: bold; /*edit*/
+  margin:0 auto;/*edit*/ 
+}
+
+/*edit*/
+.email{
+  weight: 16px; 
+  height: 15px;
 }
 
 .facebook {
   background-color: #3b5998;
-  margin-right: 10px;
+  font-weight: bold;/*edit*/
 }
 
 .twitter {
   background-color: #55acee;
+  font-weight: bold;/*edit*/
 }
 
 .btn {
@@ -78,6 +110,7 @@ a {
   opacity: 0.8;
   border-radius: 4px;
   text-align: center;
+  margin: 0 auto; /*edit*/
 }
 
 .btn:hover {
@@ -129,7 +162,7 @@ header {
 }
 
 .lesson-wrapper {
-  padding-bottom: 80px;
+  padding-bottom: 5%;/*edit*/
   padding-left: 5%;
   padding-right: 5%;
   background-color: #0e0e0e;
@@ -166,11 +199,17 @@ header {
 .lesson {
   float: left;
   width: 25%;
-  padding-right:24px;
+  margin: 0 auto;/*edit*/
 }
 
 .lesson-icon {
   position: relative;
+}
+
+/*edit*/
+.lesson-icon img{
+  padding-top: 30px;
+  border-radius: 20px;
 }
 
 .lesson-icon p {
@@ -181,7 +220,8 @@ header {
 }
 
 .text-contents{
-color:white;	
+  padding-top:20px;/*edit*/
+  color:white;	
 }	
 
 .text-contents:hover {
@@ -190,9 +230,10 @@ color:white;
 }
 
 .lesson-icon img:hover {
-   animation: shake 0.5s;
+  animation: shake 0.5s;
   animation-duration: 2s;
   cursor:pointer;
+  animation-iteration-count: infinite; /*edit*/
 }	
 
 
@@ -303,6 +344,23 @@ footer {
     width: 50%;
     margin-bottom: 50px;
   }
+
+  /*edit*/
+  .btn-wrapper a{
+    margin-right:15px;
+  }
+
+  /*edit*/
+  .signup{
+    margin-bottom: 20px;    
+  }
+
+  /*edit*/
+  .facebook{
+    margin-right: 20px;
+  } 
+
+  
 }
 
 /* Untuk Smartphone */
@@ -311,7 +369,24 @@ footer {
   .lesson {
     width: 100%;
   }
-	
+
+   /*edit*/
+  .top-wrapper{
+    padding: 300px 0 280px 50px;
+    color: rgb(50, 26, 107);
+  }
+
+   /*edit*/
+  .btn-wrapper {
+    margin-left: 0px;
+    margin-right:40px;  
+  }
+ 
+   /*edit*/
+  .btn-wrapper p{
+    display: none;
+  }
+
 .dropdown {
   position: relative;
   display: inline-block;
@@ -372,6 +447,7 @@ footer {
     margin-bottom: 10px;
   }
   
+
   .top-wrapper {
     text-align: left;
   }
@@ -382,7 +458,7 @@ footer {
   }
   
   .top-wrapper p {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 20px;
   }
   
